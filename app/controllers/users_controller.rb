@@ -7,7 +7,5 @@ class UsersController < ApplicationController
   def edit
   end
 
-  def users_params
-   params.require(:user).permit(:shop_name, :image, :caption)
-  end
+
 end
